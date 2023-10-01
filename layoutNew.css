@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.square {
+    background-color: grey;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    overflow: hidden;
+}
+
+.circle {
+    background-color: rgb(6, 58, 6);
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 160px;
+    right: 50px;
+    transform-origin: bottom right;
+    transform: rotate(38deg);
+}
+
+.rectangle {
+    background-color: rgb(6, 96, 6);
+    height: 129px;
+    width: 100px;
+    position: absolute;
+    top: 71px;
+    left: 27px;
+    transform-origin: bottom right;
+    transform: rotate(-43deg);
+}
+
+.rectangle2 {
+    background-color: green;
+    height: 121px;
+    width: 100px;
+    position: absolute;
+    top: 111px;
+    left: 10px;
+    transform-origin: bottom left;
+    transform: rotate(39deg);
+}
+
+.circle2 {
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    transform-origin: bottom right;
+    transform: rotate(38deg);
+    border-radius: 50%;
+    box-shadow: 0px 0px 26px 5px rgba(255, 255, 190, .75)
+}
